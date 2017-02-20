@@ -1,0 +1,24 @@
+<component name="libraryTable">
+  <library name="scala-sdk-2.11.0-M5" type="Scala">
+    <properties>
+      <compiler-classpath>
+        <root url="file://C:/Program Files (x86)/scala/lib/scala-compiler.jar" />
+        <root url="file://C:/Program Files (x86)/scala/lib/scala-library.jar" />
+        <root url="file://C:/Program Files (x86)/scala/lib/scala-reflect.jar" />
+      </compiler-classpath>
+    </properties>
+    <CLASSES>
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-actors-migration.jar!/" />
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-actors.jar!/" />
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-library.jar!/" />
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-parser-combinators.jar!/" />
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-reflect.jar!/" />
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-swing.jar!/" />
+      <root url="jar://C:/Program Files (x86)/scala/lib/scala-xml.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="http://www.scala-lang.org/api/2.11.0-M5/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
