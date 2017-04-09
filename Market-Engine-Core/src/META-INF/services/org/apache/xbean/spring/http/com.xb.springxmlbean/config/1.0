@@ -1,0 +1,17 @@
+# DVE Assembly Beans
+#
+
+# Data View Beans
+#
+dataview 		= com.ericsson.dve.core.assembly.dataview.DataViewBean
+schema 			= com.ericsson.dve.core.assembly.SchemaBean
+configResource  = com.ericsson.dve.core.assembly.ResourceBean
+operation 		= com.ericsson.dve.core.assembly.OperationBean
+transformInfo	= com.ericsson.dve.core.assembly.TransformInfoBean
+trigger			= com.ericsson.dve.core.assembly.TriggerBean
+
+# Data Source Beans
+#
+datasource 		= com.ericsson.dve.core.assembly.datasource.DataSourceBean
+trigger			= com.ericsson.dve.core.assembly.TriggerBean
+

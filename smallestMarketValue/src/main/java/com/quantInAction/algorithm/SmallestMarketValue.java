@@ -1,19 +1,15 @@
 package com.quantInAction.algorithm;
 
 
-import org.apache.spark.sql.Column;
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
-import org.apache.spark.sql.SaveMode;
 import org.apache.spark.sql.SparkSession;
-import org.apache.spark.sql.types.DataTypes;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.cooeration.marketengine.framework.services.AlgorithmTask;
 import com.quantInAction.stock.StockFileLayout;
 import com.quantInAction.stock.StockTotalFileLayout;
-
-import scala.collection.immutable.Seq;
 
 public class SmallestMarketValue implements AlgorithmTask{
 	
@@ -72,7 +68,7 @@ public class SmallestMarketValue implements AlgorithmTask{
 	}
 
 	@Override
-	public void setTaskConfiguration(SparkSession sparkSession, String baseDirectory, String startTimestamp, String endTimestamp) {
+	public void setTaskConfiguration(SparkSession sparkSession, String baseDirectory, String startTimestamp, String endTimestamp, boolean isLocalTest) {
 		aSession = sparkSession;
 		aBaseDirectory = baseDirectory;
 		

@@ -1,0 +1,3 @@
+package = com.xb.springxmlbean
+teacher = com.xb.springxmlbean.Teacher 
+teacher.alias.teacherId = id

@@ -14,6 +14,7 @@ import org.apache.spark.sql.expressions.Window;
 import org.apache.spark.sql.expressions.WindowSpec;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import com.cooeration.marketengine.framework.services.AlgorithmTask;
 
 public class MovingAverage implements AlgorithmTask {
 	private static final Logger LOGGER = LoggerFactory.getLogger(MovingAverage.class);

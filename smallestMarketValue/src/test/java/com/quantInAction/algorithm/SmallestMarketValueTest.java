@@ -22,7 +22,7 @@ public class SmallestMarketValueTest {
 				  .config(conf)
 				  .getOrCreate();
 		
-		aProcessor.setTaskConfiguration(spark, "C:\\important\\ideas\\stock", "", "");
+		aProcessor.setTaskConfiguration(spark, "C:\\important\\ideas\\stock", "", "", true);
 	}
 
 	@Test

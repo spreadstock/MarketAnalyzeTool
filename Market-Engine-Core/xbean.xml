@@ -1,0 +1,15 @@
+<beans xmlns="http://xbean.apache.org/schemas/spring/1.0"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xmlns:alg="java://com.cooeration.marketengine.core.jmx.beans"  
+    xsi:schemaLocation="http://xbean.apache.org/schemas/spring/1.0 classpath:/org/apache/xbean/spring/spring-beans.xsd">  
+          
+    <alg:Algorithm id="localTest">
+       <name>xubin</name>
+	   <output>/home</output>
+	   <preconditions>
+	      <alg:Algorithm id="test">
+		    <name>wangjie</name>
+		  </alg:Algorithm>
+	   </preconditions>
+    </alg:Algorithm>
+</beans> 

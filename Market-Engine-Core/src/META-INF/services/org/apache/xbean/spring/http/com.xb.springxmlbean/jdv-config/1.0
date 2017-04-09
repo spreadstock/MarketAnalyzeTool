@@ -1,0 +1,11 @@
+# DVE Assembly Beans
+#
+
+# Java Data View Beans
+#
+javadataview 		= com.ericsson.dve.core.assembly.javadataview.JavaDataViewBean
+trigger  			= com.ericsson.dve.core.assembly.TriggerBean
+neType  			= com.ericsson.dve.core.assembly.NeTypeBean
+requestContext      = com.ericsson.dve.core.assembly.javadataview.RequestContextBean
+parameter			= com.ericsson.dve.core.assembly.ParameterBean
+

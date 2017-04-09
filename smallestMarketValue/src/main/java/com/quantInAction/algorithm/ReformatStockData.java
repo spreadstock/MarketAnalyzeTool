@@ -1,14 +1,12 @@
 package com.quantInAction.algorithm;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.cooeration.marketengine.framework.services.AlgorithmTask;
 import com.quantInAction.stock.StockFileLayout;
 
 public class ReformatStockData implements AlgorithmTask {
@@ -24,7 +22,7 @@ public class ReformatStockData implements AlgorithmTask {
 
 	@Override
 	public void setTaskConfiguration(SparkSession sparkSession, String baseDirectory, String startTimestamp,
-			String endTimestamp) {
+			String endTimestamp, boolean isLocalTest) {
 		String[] fileNameList = {
 				"SH600011.txt",
 				"SH600012.txt" 

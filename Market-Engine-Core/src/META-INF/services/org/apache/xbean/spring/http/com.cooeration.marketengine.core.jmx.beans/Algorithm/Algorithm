@@ -1,0 +1,3 @@
+package = com.cooeration.marketengine.core.jmx.beans
+Algorithm = com.cooeration.marketengine.core.jmx.beans.Algorithm 
+Algorithm.alias.algId = id

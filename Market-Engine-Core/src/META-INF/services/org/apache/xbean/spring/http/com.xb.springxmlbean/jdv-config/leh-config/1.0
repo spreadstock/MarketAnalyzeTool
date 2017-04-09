@@ -1,0 +1,8 @@
+# DVE Assembly Beans
+#
+
+# Loose Error Rule Beans
+#
+looseErrorRule		= com.ericsson.dve.management.looseerrorhandling.LooseErrorRule
+trigger				= com.ericsson.dve.common.managedobject.Trigger
+error				= com.ericsson.dve.management.looseerrorhandling.JavaDataViewError
